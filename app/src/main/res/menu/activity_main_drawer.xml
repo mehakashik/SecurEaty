@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_scanReport"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Scan Report" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_privacyAdvisor"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Privacy Advisor " />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="About" />
+
+    </group>
+</menu>
